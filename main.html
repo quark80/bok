@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {background-color:  #373e98;}
+
+#myInput {
+ 
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #373e98;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #6d1ee4;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(0, 251, 255); 
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #4B0082;
+  font-style: oblique;
+}
+</style>
+</head>
+<body>
+
+<h1><p style="text-align: center; color:#f16775">Library</p></h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Books.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Halliday_Resnick_Walker_-_Fundamentals_of.pdf" target="_blank">Fundamentals of physics Halliday&Resnick Jearl walker Extended</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/104%20number%20theory%20problems_%20from%20the%20training%20of%20the%20USA%20IMO%20team%20(%20PDFDrive%20).pdf" target="_blank">104 Number Theory problems from the training of the usa IMO team</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/103%20Trigonometry%20Problems_%20From%20the%20Training%20of%20the%20USA%20IMO%20Team%20(%20PDFDrive%20).pdf" target="_blank" >103 trignometry problems from the training of the Usa IMO team</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/102%20Combinatorial%20Problems_%20From%20the%20Training%20of%20the%20USA%20IMO%20Team%20(%20PDFDrive%20).pdf" target="_blank">102 combinatoral problems from the training of the USA IMO team</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/A%20First%20Step%20to%20Mathematical%20Olympiad%20Problems%20(%20PDFDrive%20).pdf"target="_blank">A first step to mathematical olympiad problems</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Advanced%20book%20on%20Mathematics%20Olympiad%20(%20PDFDrive%20).pdf"target="_blank">An advanced book on mathematics olympiad (Putnam and beyond)</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/An%20Active%20Introduction%20to%20Discrete%20Mathematics%20and%20Algorithms%20(%20PDFDrive%20).pdf"target="_blank">An Active Introduction to Discrete Mathematics and Algorithms</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/an%20introduction%20to%20astrophysics%20(%20PDFDrive%20).pdf"target="_blank">AN INTRODUCTION TO ASTROPHYSICS AND COSMOLOGY BY ANDREW NORTON</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Calculus%205th%20Edition%20-%20James%20Stewart.pdf"target="_blank">Calculus by James Stewart</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/CALCUL~1.PDF"target="_blank">Calculus made easy by Silvanus P. thompson and Martin Gardner </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Challenge%20and%20Thrill%20of%20Pre-College%20Mathematics%20(%20PDFDrive%20).pdf"target="_blank">Challenge and Thrill of Pre-College Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/challenging-problems-in-geometry-dover-posamentier-salkind.pdf" target="_blank" >Challenging problem in Geometry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Chemistry%20(Class%209)%20(%20PDFDrive%20)%20(1).pdf" target="_blank">Trisha's ,The IIT foundation series class 9 chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Concept%20of%20Physics%20HC%20Verma%20Vol%202.pdf"target="_blank">CONCEPTS OF PHYSICS VOLUME 2 by H.C Verma</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/David_M._Burton_Elementary_Number_Theoryz-lib.org_.pdf"target="_blank">Elementary Number Theory</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dlscrib.com-pdf-problem-primer-for-olympiad-dl_3a973f0842d6457c243b2579d3657556%20(1).pdf" target="_blank">Problem Primer For the olympiad</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/elementaryalgeb00kniggoog.pdf"target="_blank">Elementary Algebra for Schools</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Foundation%20Physics%20for%20class%20IX%20Part%201%20for%20IIT%20JEE%20standard%209%20(%20PDFDrive%20)%20(4).pdf"target="_blank">Foundation Physics Class IX (9)</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Goyal%E2%80%99s%20IIT%20Foundation%20Course_%20Chemistry%20for%20Class%209%20(%20PDFDrive%20)%20(1).pdf"target="_blank">Goyal's IIT Foundation Course Chemistry for Class 9</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/hardy-wright-theory_of_numbers.pdf"target="_blank">An Introduction to the Theory of Numbers by G.H Hardy and E.M Wright</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/HC%20Verma%20Phyiscs.pdf"target="_blank">Foundation Science "Physics" for class 10 by H.C Verma</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/higher%20algebra%20Hall%20&%20Knight%20(%20PDFDrive%20).pdf"target="_blank">Higher Algebra by Hall and Knight</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/indian-national-physics-olympiad-theory-problems-and-solutions-2006-to-2009-inpho-by-vijay-a-singh-praveen-pathak-physics-olympiad-cell-india-hbcse-homi-bhabha-centre-for-science-education_compress.pdf"target="_blank">Indian National Physics Olympiad Theory Problems and Solutions 2006 to 2009 INPhO</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Mathematical%20Circles%20(Russian%20Experience)%20(%20PDFDrive%20).pdf"target="_blank">Mathematical Circles (Russian Experience)</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Mathematics%20for%20IIT%20JEE%20main%20and%20Advanced%20Two%20Dimensional%20Coordinate%20Geometry%20Vector%20And%20Three%20Dimensional%20Geometry%20Integral%20Calculus%20Algebra%20Sanjiva%20Dayal%20(%20PDFDrive%20).pdf"target="_blank">Mathematics for IIT-JEE</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/mathongo_jee_main_2019_11_january_morning_shift.pdf"target="_blank">jee main 2019 physics morning shift paper</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Physics%20(Class%209)%20(%20PDFDrive%20)%20(1).pdf"target="_blank">Trisha's IIT Foundation series Physics Class 9</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/quantum-physics-by-hc-verma-cmpress.pdf"target="_blank">Quantum Physics by H.C Verma</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/RD%20Sharma%20Maths.pdf"target="_blank">Class 10th R.D Sharma</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Six%20Easy%20Pieces_%20Essentials%20of%20Physics%20Explained%20by%20Its%20Most%20Brilliant%20Teacher%20(%20PDFDrive%20).pdf"target="_blank">Richard P. Feynman Six easy pieces</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Six%20Not-So-Easy%20Pieces_%20Einstein's%20Relativity,%20Symmetry,%20and%20Space-Time%20(%20PDFDrive%20).pdf"target="_blank">Richard P. Feynman Six not so easy pieces</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Solving%20problems%20in%20geometry_%20Insights%20and%20strategies%20for%20mathematical%20olympiad%20(%20PDFDrive%20).pdf"target="_blank">Solving Problems in Geometry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Solving%20problems%20in%20geometry_%20Insights%20and%20strategies%20for%20mathematical%20olympiad%20(%20PDFDrive%20).pdf"target="_blank">class 10 stalin malhotra physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/The%20Cartoon%20Guide%20to%20Algebra%20(%20PDFDrive%20).pdf"target="_blank">The Cartoon guide to Algebra</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/The%20Cartoon%20Guide%20to%20Calculus%20(%20PDFDrive%20).pdf"target="_blank">The Cartoon guide to Calculus</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/the%20cartoon%20guide%20to%20physics%20(%20PDFDrive%20).pdf"target="_blank">The Cartoon guide to physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/stewart.pdf"target="_blank">Calculus Early Transcendentals by James Stewart</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/sheldon-axler-algebra-and-trigonometry-wiley-2012%20(1).pdf"target="_blank">Algebra and trignometry by Sheldon Axler</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Phillips%20-%20Introduction%20to%20Quantum%20Mechanics.pdf"target="_blank">INTRODUCTION to Quantum mechanics by A.C. Phillips</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Martin%20-%20Nuclear%20and%20Particle%20Physics%20-%20An%20Introduction.pdf"target="_blank">Nuclear and Particle Physics an introduction by Brian R Martin</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/goldenbookchemistry.pdf"target="_blank">The golden book of chemical Experiments</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/All%20the%20Mathematics%20You%20Missed.pdf"target="_blank">All The Maths you Missed</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Anarchist%20Cookbook%20-%20William%20Powell.pdf"target="_blank">The Anarchist Cookbook </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/a-primer-in-tensor-analysis-and-relativity-978-3-030-26895-4_compress.pdf"target="_blank">A Primer in Tensor Analysis and Relativity</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Bate,%20Mueller,%20and%20White%20-%20Fundamentals%20of%20Astrodynamics.pdf"target="_blank">Fundamentals of Astrodynamics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Calculus.pdf"target="_blank">Calculus by Gilbert Strang MIT</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Cynthia%20Y.%20Young-Algebra%20&%20Trigonometry-Wiley%20(2013).pdf"target="_blank">Algebra and Trignometry by Cynthia Young</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Einstein_Relativity%20(1).pdf"target="_blank">RELATIVITY THE SPECIAL AND GENERAL THEORY</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/manga.pdf" target="_blank">The Manga Guide to Calculus</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/mathematical_symbols.pdf" target="_blank">List of Mathematical symbols</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/wp-1651796471205.pdf" target="_blank">Pathfinder for olympiad Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/book-fall-07.pdf" target="_blank">The Fourier Transform and its Applications</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/a_student-s_guide_to_the_mathematics_of_astronomy.pdf" target="_blank">A Student's Guide to the Mathematics of Astronomy</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/probability.pdf" target="_blank">Probability & Statistics for Engineers & Scientists</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/ebooksclub.org__Set_Theory_and_Logic.pdf" target="_blank">Set Theory And logic by Robert R. Stoll </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/thomas'%20calculus.pdf" target="_blank">THOMAS' CALCULUS EARLY TRANSCENDENTALS Twelfth Edition</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Handbook%20of%20Physics%20-Arihant%20Aiimsneetshortnotes1%20%20(1).pdf" target="_blank">Arihant Handbook of Physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Handbook%20of%20Mathematics%20by%20Arihant%20@Pavithran.Net.pdf" target="_blank">Arihant Handbook of Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/op%20tandon%20organic%20chemistry%20pdf.pdf" target="_blank">OP Tandon Organic Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Fundamental+Astronomy+5th+Edition.pdf" target="_blank">Fundamental Astronomy</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/differential-calculus-pdf.pdf" target="_blank">Differential calculus by S.Chand</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/0123706173-physical_chemistry__third_edition.pdf" target="_blank">Physical Chemistry Third Edition</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Comprehensive%20Organic%20Chemistry%20for%20IIT%20JEE%20main%20and%20Advanced%20(%20PDFDrive%20).pdf" target="_blank">Comprehensive Organic chemistry for JEE mains and advanced, NEET, AIIMS, Olympiad, KVPY and SAT </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/IIT%20JEE%20Super%20Course%20in%20Chemistry_%20Organic%20Chemistry%20(%20PDFDrive%20).pdf" target="_blank">Trisha's IIT JEE Super course in Chemistry (Organic Chemistry)</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Physical%20Inorganic%20Chemistry_%20A%20Coordination%20Chemistry%20Approach%20(%20PDFDrive%20).pdf" target="_blank">Physical inorganic Chemistry </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/SetTheoryDover-%20Charles%20C%20Pinter.pdf" target="_blank">A Book of Set Theory Charles C. Pinter</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/settheory_Ashlock.pdf" target="_blank">Basic Set Theory</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Pathfinder%20for%20Olympiad%20and%20JEE%20Advanced%20Physics-Arvind%20Tiwari,%20Sachin%20Singh%20-%20(%20PDFDrive%20).pdf" target="_blank">Pathfinder for olympiad and Jee advanced Physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/@iitjeehelps%20JD%20Lee%20Adapted%20By%20Sudarshan%20Guha.pdf" target="_blank">J.D Lee Concise Inorganic chemistry for JEE Mains&Advanced Sudarshan Guha </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/stbk.pdf" target="_blank">A Beginner's Guide to Modern Set Theory Martin Dowd</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/toaz.info-integral-calculus-by-shanti-narayanpdf-pr_036ac17bac2eebdfba6c1a21f7d9ff46.pdf" target="_blank">Integral Calculus S.Chand</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Hugh-D.-Young-Roger-A.-Freedman-A.-Lewis-Ford-University-Physics-with-Modern-Physics-with-MasteringPhysics%C2%AE-13th-Edition-Addison-Wesley-2011.pdf" target="_blank">Sears and Zemansky's University Physics with Modern Physics Young and Freedman </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Integral-calculus-fo-Joseph-Edwards-[ebooksread.com].pdf" target="_blank">INTEGRAL CALCULUS FOR BEGINNERS by JOSEPH EDWAEDS </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/NSEC-INChO-IIT-JEE-Main-and-Advanced-Chemistry-Olympiad-Dr.-Praveen-Kumar-Arihant.pdf" target="_blank">Indian National Chemistry olympiad</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/vdoc.pub_indian-national-mathematics-olympiad-conducted-by-hbcse-with-solved-papers-of-rmo-inmo-2016-2019-part-2-from-page-336-inequalities-solutions-rajeev-manocha-arihant.pdf" target="_blank">Indian National Mathematics Olympiad</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Indian%20National%20Physics%20Olympiad%20-%20Saurabh%20A.pdf" target="_blank">Indian national Physics Olympiad</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Main.pdf" target="_blank">Book of Proof Third Edition Richard Hammack</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/200%20Puzzling%20Physics%20Problems_%20With%20Hints%20and%20Solutions%20(%20PDFDrive%20)%20(1).pdf" target="_blank">200 Puzzling Physics Problems with hints and solutions</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/DC%20Pandey%20Waves%20And%20Thermodynamics%20(crackjee.xyz).pdf" target="_blank">Understanding physics Jee Mains&Advance D.C Pandey Waves and Thermodynamics </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/DC%20Pandey%20Mechanics%20Volume%202%20(crackjee.xyz).pdf" target="_blank">Understanding physics Jee Mains&Advance D.C Pandey mechanics volume 2</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/DC%20Pandey%20Mechanics%20Volume%201%20(crackjee.xyz).pdf" target="_blank">Understanding physics Jee Mains&Advance D.C Pandey mechanics volume 1</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/DC%20Pandey%20Optics%20And%20Modern%20Physics%20(crackjee.xyz).pdf" target="_blank">Understanding physics Jee Mains&Advance D.C Pandey optics and modern physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/toaz.info-an-excursion-in-mathematics-pr_fb8fc6a8b1ce63a14c3d8d3e10b73215.pdf" target="_blank">An Excursion in Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Nuclear%20Physics_%20Exploring%20the%20Heart%20of%20Matter%20(%20PDFDrive%20).pdf" target="_blank">Nuclear Physics Exploring the Heart of Matter</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Problems%20in%20Calculus%20of%20One%20Variable%20-%20I.%20A.%20Maron.pdf" target="_blank">Problems in Calculus of one variable I.A Maron</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Plane_Trigonometry__for_Colleges_and_Sec.pdf" target="_blank">Plane Trignometry for Colleges and Secondary Schools</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Calculus%20and%20Analytic%20Geometry%20(9th%20Edition)%20%20%20(%20PDFDrive%20).pdf" target="_blank">Thomas/Finney Calculus and analytic geometry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/A%20Transition%20to%20Advanced%20Mathematics%20(Douglas%20Smith,%20Maurice%20Eggen,%20Richard%20St.%20Andre)%20(z-lib.org).pdf" target="_blank">A transition to Advanced Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Transition-ereader.pdf" target="_blank">A transition to Advanced Mathematics by Darrin Doud and Pace P. Nielsen</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Problem%20Solving%20strategies%20for%20Math%20Olympiads%20(%20PDFDrive%20).pdf" target="_blank">Arthur Engel Problem-Solving Strategies</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/howard_anton_chris_rorres_elementary_linear_algebra_applications_version_11th_edition.pdf" target="_blank">Elementary Linear Algebra Applications Version</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Organic%20Chemistry%208e%20By%20Paula%20Yurkanis%20Bruice.pdf" target="_blank">Organic Chemistry EIGHTH EDITION Paula Yurkanis Bruice</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/inorganic-chemistry.pdf" target="_blank">INORGANIC CHEMISTRY by CATHERINE E. HOUSECROFT AND ALAN G. SHARPE FOURTH EDITION</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Pearson%20IIT%20Foundation%20Series%20-%20Mathematics%20Class%209%20by%20Trishna%20Knowledge%20Systems%20(z-lib%20(%20PDFDrive%20).pdf" target="_blank">Pearson iit foundation Mathematics class 9</a></li>
+  <li><a href="https://www.feynmanlectures.caltech.edu/" target="_blank">The Feynman Lectures on Physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Introductory%20Astronomy%20and%20Astrophysics%20(%20PDFDrive%20).pdf" target="_blank">Introductory Astronomy and Astrophysics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/An%20Introduction%20to%20Modern%20Astrophysics%20(%20PDFDrive%20).pdf" target="_blank">An Introduction to Modern Astrophysics by Bradley W. Carroll Dale A. Ostlie Second Edition</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Chemistry%20(%20PDFDrive%20).pdf" target="_blank">Chemistry by Zumdalh 9th edition </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/modern-physics-3rd-edgnv64.pdf" target="_blank">MODERN PHYSICS Third edition by Kenneth S. Krane</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/David%20J.%20Griffiths-Introduction%20to%20Electrodynamics-Addison-Wesley%20(2012).pdf" target="_blank">INTRODUCTION TO ELECTRODYNAMICS Fourth Edition by David J. Griffiths</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/toaz.info-iit-jee-foundation-class-10-pearson-physicspdf-pr_b8c3d89404d21f776334adba2b5ae4ab.pdf" target="_blank">Trisha's IIT Foundation series class 10 physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/toaz.info-pearson-maths-8-pdfdrivecom-1pdf-pr_8af34d0042393c2199a23c8f08fe072f.pdf" target="_blank">Pearson IIT Foundation series class 8 Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/lang.pdf" target="_blank">Graduate Texts in Mathematics Complex Analysis</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Elementary%20linear%20algebra%2010th%20edition%20(%20PDFDrive%20).pdf" target="_blank">Elementary Linear Algebra</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Mathematical%20Tricks%20A%20must%20for%20all%20competitive%20exams%20IIT%20JEE%20MAIN%20JEE%20Advanced%20BITSAT%20RMO%20B.STAT%20B.Math%20Srijit%20Mondal%20ISI%20Forum%20(%20PDFDrive%20).pdf" target="_blank">Mathematical Tricks: A Must for all competitive exams</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/2015.550889.I-I.pdf" target="_blank">IIT Guide for mathematics by M.L Khanna</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/IIT%20Foundation%20Mathematics%20(Class%2010)%20-Pearson.pdf" target="_blank">Trishna's The IIT Foundation series Class 10 Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/RS%20AGG%2011.pdf" target="_blank">R.S. Aggarwal class 11 Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/whiteheadrussell-principiamathematicavolumei.pdf" target="_blank">Principia Mathematica by Whitehead&Russell</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/NCERT-Class-11-Mathematics.pdf" target="_blank">NCERT class 11 Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/NCERT-Class-11-Mathematics-Exemplar-Problems.pdf" target="_blank">Mathematics class 11 Exemplar Problems</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/cracking-the-ap-calculus-ab-exam-2016-edition-pdf.pdf" target="_blank">Cracking the AP Calculus AB exams 2016 Edition</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Isaac-Newton-Principia-English-1846.pdf" target="_blank">NEWTON S PRINCIPIA. THE MATHEMATICAL PRINCIPLES OF NATURAL PHILOSOPHY, BY SIR ISAAC NEWTON</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Santos%20-%20Number%20Theory%20for%20Mathematical%20Contests.pdf" target="_blank">Number Theory for Mathematical Contests</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/aitken.pdf" target="_blank">Determinants and matrices by A.c Aitken</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Titu_Andreescu,_Dorin_Andrica_Number_Theory_Str.pdf" target="_blank">Number Theory by Titu Andreescu</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/mathematical-olympiad-treasures-2ed-springer-2011.pdf" target="_blank">Mathematics Olympiad Treasures 2/E by Titu Andreescu </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/paul-zeitz-author-the-art-and-craft-of-problem-solving-2edwiley20060471789011.pdf" target="_blank">The Art and Craft of Problem Solving by Paul Zeitz</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/ioaa-book-.pdf" target="_blank">A Problem book in Astronomy and Astrophysics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Maths-brochure2019-20-final.pdf" target="_blank">Mathematical Olympiad Programme in India Leading to participation in International Mathematical Olympiad 2019-20</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Golub_VanLoan.Matr_comp_3ed.pdf" target="_blank">Matrix Computations 3/E by Gene E. Golub</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/noBSLA_v2_preview.pdf" target="_blank">No Bullshit Guide to Linear Algebra Extended book preview</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/book.pdf" target="_blank">Graph Theory with Applications to Engineering & Computer Science by NARSINGH DEO</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/mathematical-olympiad-challenges-2nd-edition-feb-2009.pdf" target="_blank">Mathematics Olympiad Challenges by Titu Andreescu</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/atomic-habits.pdf" target="_blank">Atomic Habits</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Principles%20and%20Techniques%20in%20Combinatorics%20-%20Chen%20Chuan-Chong,%20Koh%20Khee-Meng%20(WS,%201992).pdf" target="_blank">Principles and Techniques in Combinatorics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Problems%20In%20Physics%20SS%20Krotov%20(%20PDFDrive%20).pdf" target="_blank">Aptitude Test Problems in Physics Science for Everyone by S Krotov</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/All%20In%20One%20Social%20Science%20Class%209%20WWW.EEXAMSAKHA.IN.pdf" target="_blank">All in One SST(social science) class 9</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/All%20In%20One%20English%20Class%209%20WWW.EXAMSAKHA.IN.pdf" target="_blank">All in One English class 9</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Calculus%20(%20PDFDrive%20).pdf" target="_blank">Calculus by michael spivak</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Computer_Networking_A_Top-Down_Approach.pdf" target="_blank">Computer Computer Networking A Top-Down Approach by Kurose and Ross</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/jd%20lee.pdf" target="_blank">Jd Lee Concise Inorganic Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/LG%20WADE,%20JR.%20(%20PDFDrive%20).pdf" target="_blank">Organic chemistry L.G Wade Jr</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/it_act_2000_updated.pdf" target="_blank">IT act 2000</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Sanskrit%20word%20meaning.pdf" target="_blank">Sanskrit word meaning</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/W.L.F.Armarego,%20D.D.Perrin%20-%20Purification%20of%20Laboratory%20Chemicals.%204th%20edition.pdf" target="_blank">Purification of Laboratory chemicals</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/USSR%20Olympiad%20Problem%20Book%20(The)%20-%20Shklasrsky,%20Chentzov,%20and%20Yaglom%20(1993,%20Dover)%20(1-1).pdf" target="_blank">USSR Olympiad book</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(2)%20[Coxeter%20Greitzer]%20Geometry%20Revisited..pdf" target="_blank">GEOMETRY REVISITED H. S. M. Coxeter</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Algorithms%20by%20S.%20Dasgupta,.pdf" target="_blank">Algorithms by S.Dasgupta</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/engel.pdf" target="_blank">Problem solving Strategies by Arthur Engel</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/The-Chemistry-of-Powder-and-Explosives-by-Tenney-L.-Davis-z-lib.org_.pdf" target="_blank">Properties of explosives</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/aalm.pdf" target="_blank">METHOD OF SEPARATING THORIUM FROM PLUTONIUM US Patient </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/learn-sanskrit-in-30-days.pdf" target="_blank">Learn Sanskrit in 30 days</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Introduction_to_Algorithms_Third_Edition_(2009).pdf" target="_blank">Introduction to Algorithms</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/21505090211.pdf" target="_blank">India's Atomic Energy Programme Past and Future</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/IN09.pdf" target="_blank">India's Nuclear Weapons Programme</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/20080005024.pdf" target="_blank">HIGH QUALITY OPTICALLY POLISHED ALUMINUM MIRROR AND PROCESS FOR PRODUCING US Patient </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Paul_Zeitz_The_Art_and_Craft_of_Problem_SolvingBookosorg.pdf" target="_blank">THE ART AND CRAFT OF PROBLEM SOLVING</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/24954050.pdf" target="_blank">Anions of the Alkali Metals</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/competitive%20programmers%20handbook%20by%20Antti%20Laaksonen.pdf" target="_blank">Competitive Programmers Handbook</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Spherical%20Trigonometry%20Through%20the%20Ages.pdf" target="_blank">Spherical Trigonometry Through the Ages</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/FV4UCJFJ5CQEVLZ.pdf" target="_blank">Homemade Reflector Telescope </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/kbadqkdlcswfjdelrquehwuxcfmijmuixngudufgbuubgubfugbububjxcgfvsbdihbgfGhdfgFHytyhRtMjk4NzY=.pdf" target="_blank">THE INFORMATION TECHNOLOGY ACT, 2000 </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/The%20Anarchist%20Cookbook%20(%20PDFDrive%20).pdf" target="_blank">The Anarchist Cookbook</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/GS-Adler-Secondary.pdf" target="_blank">Telescope Techniques</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/rc000034.pdf" target="_blank">Radiochemistry of Thorium</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/00326406.pdf" target="_blank">The Origin of Neutron Radiation</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/rocks%20and%20minerals%20identification.pdf" target="_blank">Rock And Mineral Identification for Engineers</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/spherical%20trig.pdf" target="_blank">SPHERICAL TRIGONOMETRY</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/IN01.pdf" target="_blank">Indian nuclear Energy Programme</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Albert%20Einstein%20-%20The%20collected%20papers%20of%20Albert%20Einstein,%20Vol.%2011_%20Cumulative%20Index,%20Bibliography,%20List%20of%20Correspondence,%20Chronology,%20and%20Errata%20to%20Volumes%201-10-Princeton%20University%20Press%20(2009).pdf" target="_blank">THE COLLECTED PAPERS OF Albert Einstein VOLUME 11 </a></li>
+  <li><a href="C:/Users/rudra/Documents/home/book%20website/book/Julian%20Havil%20-%20The%20Irrationals_%20A%20Story%20of%20the%20Numbers%20You%20Can't%20Count%20On-Princeton%20University%20Press%20(2012).pdf" target="_blank">The Irrationals by Julian Havil</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Princeton%20Series%20in%20Astrophysics)%20James%20Binney,%20Scott%20Tremaine%20-%20Galactic%20Dynamics-Princeton%20University%20Press%20(2008).pdf" target="_blank">Galactic dynamics (princeton University Press)</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/John%20Stillwell%20-%20The%20Story%20of%20Proof_%20Logic%20and%20the%20History%20of%20Mathematics-Princeton%20University%20Press%20(2022).pdf" target="_blank">THE STORY OF PROOF logic and the history of mathematics by John Stillwell</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Peter_Atkins__Julio_de_Paula__Physical_Chemistry__1_%20(1).pdf" target="_blank">ATKINS PHYSICAL CHEMISTRY</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Dan%20Saracino%20-%20Abstract%20Algebra_%20A%20First%20Course%20(2008).pdf" target="_blank">Abstract Algebra A first course by Dan Saracino</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/algebra-serge-lang.pdf" target="_blank">Serge Lang Algrbra</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/OrganicChemistry-WEB_lNotFqg.pdf" target="_blank">Organic Chemistry OpenStax</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Schaum)%20Stacey%20Palen%20-%20Schaum's%20Outline%20of%20Astronomy-McGraw-Hill%20(2001).pdf" target="_blank">Theory and Problems of Astronomy by STACY E. PALEN Schaum series</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Peter%20L.%20Manly%20-%20Amateur%20Telescope%20Making%20(1998)(en)(259s)-Cambridge%20University%20Press%20(1992).pdf" target="_blank">Amature Telescope Making</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(AMTI%20Mathematics%20Chennai)%20S%20Muralidharan%20-%20AMTI%20Mathematics%20Expositions%20Vol%201%20Recursion%20Sequences%20S%20Muralidharan-AMTI%20Chennai%20(2018).pdf" target="_blank">AMTI Mathematical Expositions recursion sequence by S Muralidharan </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(AMTI%20Maths)%20coll.%20-%20The%20Wonder%20World%20Of%20Kaprekar%20Numbers-Association%20of%20Mathematics%20Teachers%20of%20India%20(2017).pdf" target="_blank">AMTI Wonder of the Karprekar Numbers</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(High%20School%20Mathematics%20Junior%20Senior%20Olympiad%20RMO%20INMO%20NSEJS%20IIT%20JEE%20Foundation)%20R%20Vijayalakshmi%20-%20AMTI%20The%20Charm%20of%20Problem%20Solving-Association%20of%20Mathematics%20Teachers%20of%20Chennai%20India%20(2018).pdf" target="_blank">AMTI The Charm Of Problem Solving</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Math%20Olympiad%20Foundation)%20Ramchundra%20Dr%20M%20S%20Rangachari%20-%20AMTI%20A%20Treatise%20on%20Problems%20of%20Maxima%20and%20Minima%20Solved%20by%20Algebra%20By%20Ramchundra%20Dr%20M%20S%20Rangachari%20for%20PRMO%20RMO%20INMO%20Math%20Olympiad%20Foundation-.pdf" target="_blank">AMTI A Treatise On Problems of Maxima and Minima </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Astronomy-2e-WEB_6qnoaIc.pdf" target="_blank">Astronomy OpenStax</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/David%20Patrick%20-%20Calculus.pdf" target="_blank">Calculus David Patrick Art Of Problem Solving (AOPS)</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/textbook-math111.pdf" target="_blank">HOW TO PROVE IT A Structured Approach, E2 Daniel J. Velleman</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/K.%20David%20Harrison%20-%20When%20Languages%20Die_%20The%20Extinction%20of%20the%20World's%20Languages%20and%20the%20Erosion%20of%20Human%20Knowledge%20(Oxford%20Studies%20in%20Sociolinguistics)%20(2007).pdf" target="_blank">When Languages Die by K. David Harrison</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/George%20E.%20Andrews%20-%20Number%20Theory%20[corrected%20ver.]-Saunders%20Company%20(1971).pdf" target="_blank">George E Sanders Number Theory</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Bell+W.W.+Special+Functions+for+Scientists+&+Engineers+(Van+Nostrand,+1968)(K)(T)(257s).pdf" target="_blank">bell W.W Special functions for Scientists and Engineers</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Abstract%20Algebra_%20A%20First%20Course%20(%20PDFDrive%20).pdf" target="_blank">Dan Saracino Abstract Algebra</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Organic%20Chemistry%20(%20PDFDrive%20).pdf" target="_blank">morrison and boyd organic Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Physics%20for%20Scientists%20&%20Engineers%20&%20Modern%20Physics,%209th%20Ed%20(%20PDFDrive%20).pdf" target="_blank">Physics for Scientists and Engineers</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Peter%20Sykes%20-%20A%20guidebook%20to%20mechanism%20in%20organic%20chemistry-Prentice%20Hall%20(1996).pdf" target="_blank">Peter Sykes guidebook to mechanism in organic Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Schaum)%20Frank%20Ayres,%20Elliott%20Mendelson%20-%20Schaum's%20Outline%20of%20Calculus-Mcgraw-Hill%20(1990).pdf" target="_blank">Schaum outline of calculus</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Bruce%20C.%20Berndt%20-%20Ramanujan's%20Notebooks.%20Volume%205-Springer%20(1997).pdf" target="_blank">Ramanujan Notebooks volume 5</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/pdfcoffee.com_pathfinder-for-prmo-prashant-jain-pdf-free.pdf" target="_blank">Pathfinder for Pre-Regional Mathematics - Prashant Jain</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/What%20If__%20Serious%20Scientific%20Answers%20to%20Absurd%20Hypothetical%20Questions%20(%20PDFDrive%20).pdf" target="_blank">What If Randall Munroe</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Santos-NumberTheoryforMathematicalContests.pdf" target="_blank">Santos Number theory for mathematical contests</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Geology_%20A%20Self-Teaching%20Guide.pdf" target="_blank">geology self teaching guide</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/JE_Thompson--Calculus-for-the-Practical-Man.pdf" target="_blank">JE thompson Calculus for the practical man</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Lacture%20Notes%20on%20Mathematical%20Olympiad%20Courses%20Vol%202%20By%20Xu%20Jiagu.pdf" target="_blank">lecture notes on mathematical olympiad course </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Bruce%20H.%20Mahan%20-%20University%20Chemistry-Addison-Wesley%20Pub.%20Co,%20%20Narosa%20Publishing%20House%20Pvt.%20Ltd.%20(1975).pdf" target="_blank">Bruce H. Mahan - University Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Calculus)%20Tom%20M.%20Apostol%20-%20Calculus,%20Volume%201,%202nd%20Edition%20(PROPER).%201-John%20Wiley%20&%20Sons,%20Inc.%20(1991)%20(2).pdf" target="_blank">Tom M. Apostol - Calculus, Volume 1</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Calculus)%20Tom%20M.%20Apostol%20-%20Calculus,%20Volume%202,%202nd%20Edition%20(PROPER).%202-John%20Wiley%20&%20Sons,%20Inc.%20(1975)%20(1).pdf" target="_blank">Tom M. Apostol - Calculus, Volume 2</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/introduction-to-number-theory-art-of-problem-solving-introduction-2nbsped-1934124125-9781934124123_compress.pdf" target="_blank">AOPS introduction to number theory art of problem solving introduction</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/[Series%20in%20optics%20and%20optoelectronics%20(CRC%20Press)]%20Gregory%20J.%20Gbur%20-%20Singular%20optics%20(2017,%20CRC%20Press)%20-%20libgen.li.pdf" target="_blank">Singular optics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/How%20to%20Read%20and%20Do%20Proofs%20by%20Daniel%20Solow.pdf" target="_blank">HOW to READ and DO PROOFS DANIEL SOLOW</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Mathematical-Logic.pdf" target="_blank">MATHEMATICAL LOGIC FOR APPLICATIONS</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Saunders%20Golden%20Sunburst%20Series)%20Michael%20Zeilik_%20Stephen%20A.%20Gregory%20-%20Introductory%20Astronomy%20and%20Astrophysics-Cengage%20Learning%20(1998).pdf" target="_blank">Introductory ASTROPHYSICS and Astronomy</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Topology_%20An%20Introduction%20with%20Application%20to%20Topological%20Groups%20(%20PDFDrive%20).pdf" target="_blank">Topology An Introduction with Applications</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Modern%20Geometry%E2%80%94%20Methods%20and%20Applications_%20Part%20II_%20The%20Geometry%20and%20Topology%20of%20Manifolds%20(%20PDFDrive%20).pdf" target="_blank">Modern GeometryMethods and Applications Part 11. The Geometry and Topology of Manifolds</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Black%20Hat%20Python,%202nd%20Edition%20by%20Justin%20Seitz%20%20Tim%20Arnold%20[Justin%20Seitz].pdf" target="_blank">Black Hat Python</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/B.J.%20Venkatachala%20-%20Functional%20Equations%20A%20problem%20solving%20approach-Prism%20Books%20Pvt%20Ltd.pdf" target="_blank">B.J Venkatachala Functional Equations </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Olympiad_Combinatorics.pdf" target="_blank">Olympiad Combinatorics Pranav A. Sriram</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(New%20Mathematical%20Library)%20Beckenbach,%20Edwin%20F_Bellman,%20Richard%20E%20-%20An%20Introduction%20to%20Inequalities-Mathematical%20Association%20of%20America%20(MAA)%20(1961).pdf" target="_blank">Introduction to inequalities</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/David%20Patrick%20-%20Introduction%20to%20Counting%20&%20Probability%20(The%20Art%20of%20Problem%20Solving)-AoPS%20Inc%20(2007).pdf" target="_blank">David Patrick - Introduction to Counting & Probability </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Geometry%20Comprehensive%20Course%20by%20Dan%20Pedoe.pdf" target="_blank">geometry comprehensive course Dan Pedoe</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Jay%20Cummings%20-%20Proofs_%20A%20Long-Form%20Mathematics%20Textbook%20(The%20Long-Form%20Math%20Textbook%20Series)-Independently%20published%20(2021).pdf" target="_blank">Proof Jay cummings</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(McGraw-Hill%20paperbacks)%20J%20%20V%20Uspensky%20-%20Theory%20of%20equations-New%20York,%20McGraw-Hill%20Book%20Co%20%20(1948).pdf" target="_blank">Theory of Equations - J. Uspensky</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Titu%20Andreescu,%20Dorin%20Andrica%20-%20Number%20theory_%20a%20problem-solving%20approach-Birkh%C3%A4user%20Boston%20(2009).pdf" target="_blank">Titu Andreescu Number Theory</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dokumen.pub_first-steps-for-math-olympians-using-the-american-mathematics-competitions-088385824x-978-0-88385-824-0-978-1-61444-404-6.pdf" target="_blank">First Step for math Olympiad</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/David%20Patrick%20-%20Intermediate%20Counting%20and%20Probability-Aops%20Inc%20(2007).pdf" target="_blank">David Patrick - Intermediate Counting and Probability</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Mathematics%20Olympiad%20RMO%20INMO%20AMTI%20NMTC%20PRMO)%20Avnish%20Kr%20Saxena%20-%20part%201%20upto%20Theory%20of%20Numbers%20A%20Guide%20to%20Mathematics%20Olympiad%20for%20RMO%20INMO%20AMTI%20NMTC%20PRMO%20for%20Class%208%20onwards%202nd%20Edition%20Avnish%20Kr%20Sa.pdf" target="_blank">Avnish Kr saxena part 1</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Mathematics%20Olympiad%20RMO%20INMO%20AMTI%20NMTC%20PRMO)%20Avnish%20Kr%20Saxena%20-%20part%202%20from%20Geometry%20to%20Theory%20of%20Equations%20A%20Guide%20to%20Mathematics%20Olympiad%20for%20RMO%20INMO%20AMTI%20NMTC%20PRMO%20for%20Class%208%20onwards%202nd%20Editio.pdf" target="_blank">Avnish Kr saxena part 2</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/College%20Board%20-%20The%20Official%20SAT%20Study%20Guide,%202018%20Edition.pdf" target="_blank">The Official SAT Study Guide</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Koh%20Khee%20Meng,%20Tay%20Eng%20Guan%20-%20Counting%20(2002).pdf" target="_blank">Koh Khee Meng, Tay Eng Guan - Counting</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Titu%20Andreescu,%20Zuming%20Feng%20-%20A%20Path%20to%20Combinatorics%20for%20Undergraduates_%20Counting%20Strategies%20%20-Birkh%C3%A4user%20Boston%20(2003).pdf" target="_blank">Zuming Feng A Path to COlllbinatorics for Undergraduates Counting Strategies</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Hindustan%20Book%20Agency%20Texts%20and%20readings%20in%20mathematics%2049)%20Venkatachala%20B.J.%20-%20Inequalities_%20an%20approach%20through%20problems-Springer%20(2016).pdf" target="_blank">B. J. Venkatachala Inequalities An Approach Through Problems</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/A%20Beautiful%20Journey%20Through%20Olympiad%20Geometry%20(1.4).pdf" target="_blank">A Beautiful Journey Through Olympiad Geometry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/David%20Morin%20-%20Introduction%20to%20classical%20mechanics_%20with%20problems%20and%20solutions-Cambridge%20University%20Press%20(2008)%20(1).pdf" target="_blank">David Morin - Introduction to classical mechanics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/kleppner-kolenkow-introduction-to-mechanics.pdf" target="_blank">kleppner kolenkow introduction to mechanics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Titu%20Andreescu,%20Marian%20Tetiva%20-%20Sums%20and%20Products-XYZ%20Press%20(2018).pdf" target="_blank">Titu Andreescu, Marian Tetiva - Sums and Products</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Inequalities-Korovkin.pdf" target="_blank">P.P korovkin Inequalities</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Scherz.pdf" target="_blank">Practical Electronics for Inventors Paul, Scherz Simon Monk</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/W5S8i2_Thermal_Physics.pdf" target="_blank">Concepts in Thermal Physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/tarasov-calculus.pdf" target="_blank">L.V Tarasov calculus</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Galois%20Theory%202nd%20ed.%20-%20E.%20Artin.pdf" target="_blank">GALOIS THEORY by DR. EMIL ARTIN</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/organic.pdf" target="_blank">MARCH'S ADVANCED ORGANIC CHEMISTRY</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/French-Ebison-Introduc-to-classical-mechanics.pdf" target="_blank">French Ebison Introduction to classical mechanics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Stahl%20-%20Real%20analysis.pdf" target="_blank">Real Analysis: A Historical Approach Saul Stahl</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Cotton%20F.,%20Wilkinson%20G.,%20Murillo%20C.,%20Bochmann%20M.%20-%20Advanced%20inorganic%20chemistry-John%20Wiley%20&%20Sons%20(1999).pdf" target="_blank">Cotton F., Wilkinson G., Murillo C., Bochmann M. - Advanced inorganic chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/principles%20of%20inorganic%20Chemistry%20by%20puri%20Sharma%20Kalia%20(z-lib.org)%20(1).pdf" target="_blank">principles of inorganic Chemistry by puri Sharma Kalia</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Inorganic_Chemistry_Atkins_Shriver_PDF.pdf" target="_blank">Shriver & Atkins' Inorganic Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Yavorsky,%20Detlaf%20-%20Handbook%20of%20Physics%20-%20Mir.pdf" target="_blank">B. YAV0RSKY and A. DETLAF Handbook of Physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/bansal-classes-maths.pdf" target="_blank">Bansal Classes Maths</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/196174216674_10151379429531675.pdf" target="_blank">GH Hardy A Mathematician's Apology</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/37965435-Bansal-Classes-Chemistry-Study-Material-for-IIT-JEE.pdf" target="_blank">Bansal Classes Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/irodov-mechanics.pdf" target="_blank">I.E Irodov Fundamental laws of mechanics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/ABookofCurvesLockwood.pdf" target="_blank">A Book of Curves - E. Lockwood</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/92356191-Bansal-CLasses-Physics-Study-Material-for-IIT-JEE.pdf" target="_blank">Bansal Classes Physics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/f191e38e767e190b80802593703ed96f.pdf" target="_blank">Schaum Theoretical mechanics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/sl%20loney%20cord%20geo%202.pdf" target="_blank">SL Loney coordinate Geometry part 2 Trilinear coordinates</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/An-Excursion-through-Elementary-Mathematics-Volume-I_-Real-Numbers-and-Functions.pdf" target="_blank">An Excursion through Elementary Mathematics Volume I Real Numbers and Functions</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/PsCIAuIabb.pdf" target="_blank">An Excursion through Elementary Mathematics Volume III Real Numbers and Functions</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dokumen.pub_an-excursion-through-elementary-mathematics-vol2-9783319779737-9783319779744.pdf" target="_blank">An Excursion through Elementary Mathematics Volume II Real Numbers and Functions</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Cambridge%20studies%20in%20advanced%20mathematics%2074)%20R.%20M.%20Dudley%20-%20Real%20Analysis%20and%20Probability-Cambridge%20University%20Press%20(2002).pdf" target="_blank">REAL ANALYSIS AND PROBABILITY R. M. DUDLEY</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/pdfcoffee.com_neeraj-kumar-advanced-problems-in-physical-chemistry-for-competitive-examinations-pearson-for-iit-jee-2015pdf-pdf-free.pdf" target="_blank">Advanced Problems In Physical Chemistry For Competitive Examination</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Jonathan%20Clayden,%20Nick%20Greeves,%20Stuart%20Warren%20-%20Organic%20Chemistry-Oxford%20University%20Press%20(2012).pdf" target="_blank">Jonathan Clayden, Nick Greeves, Stuart Warren - Organic Chemistry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Topics%20in%20Current%20Chemistry)%20F.%20V%C3%B6gtle,%20E.%20Weber%20-%20Stereochemistry-Springer%20(1984).pdf" target="_blank">F. Vögtle, E. Weber - Stereochemistry Springer</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/pdfcoffee.com_mechanics-for-advanced-level-physics-pdf-free.pdf" target="_blank">mechanics For Advanced Level Physics l.bostock S.chandler</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/pdfcoffee.com_advanced-level-physics-3-pdf-free.pdf" target="_blank">Advanced Level Physics M.Nelkon P.Parker</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Tom%20M.%20Apostol%20-%20Mathematical%20Analysis,%20Second%20Edition-Addison%20Wesley%20(1974).pdf" target="_blank">Tom M.Apostol Mathematical Analysis</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Paul%20Lockhart%20-%20Measurement-Belknap%20Press%20(2012).pdf" target="_blank">Paul Lockhart Measurement</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/A.I.%20Vogel,%20A.R.%20Tatchell,%20B.S.%20Furnis,%20A.J.%20Hannaford,%20P.W.G.%20Smith%20-%20Vogel's%20Textbook%20of%20Practical%20Organic%20Chemistry%20-Prentice%20Hall%20(1996).pdf" target="_blank">VOGEL's TEXTBOOK OF PRACTICAL ORGANIC CHEMISTRY</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Joseph%20Edwards%20-%20Differential%20calculus%20for%20beginners-Macmillan%20(1896).pdf" target="_blank">Differential Calculus for Beginner Joseph Edwards</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Science%20for%20Everyone)%20I.%20F.%20Sharygin%20-%20Problems%20in%20Plane%20Geometry%20(Science%20for%20Everyone)%20%20-Mir%20Publishers%20(1988).pdf" target="_blank">I.F. Sharygin Problems in Plane Geometry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(AHSME)%20_%20American%20Invitational%20Mathematics%20Examinations%20(AIME)%201983-1988%20(Anneli%20Lax%20New%20Mathematical%20Library)%20George%20Berzsenyi,%20Stephen%20B.%20Maurer%20-%20The%20Contest%20Problem%20Book%20V_%20American%20High%20School%20M.pdf" target="_blank">The Contest Problem Book V AIME MAA</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(RMO%20INMO%20Math%20Olympiad%20Foundation)%20S%20Muralidharan%20-%20AMTI%20Triangles%20Construction%20and%20Inequalities%20for%20Math%20Olympiad%20Foundation%20PRMO%20RMO%20INMO%20IMO-AMTI%20Chennai%20(2018).pdf" target="_blank">S Muralidharan - AMTI Triangles Constructions and Inequalities</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Jrgeometry%20-%20Triangles.pdf" target="_blank">Triangles Jrgeometry</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Stressing%20Symmetry)%20Frederick%20M.%20Goodman%20-%20Algebra.%20Abstract%20and%20Concrete-Prentice%20Hall%20(2002).pdf" target="_blank">ALGEBRA ABSTRACT AND CONCRETE</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dokumen.pub_unsolved-problems-in-number-theory-problem-books-in-mathematics-4-9781441919281-9780387266770-1441919287.pdf" target="_blank">Unsolved Problems in Number Theory </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dokumen.pub_unsolved-problems-in-astrophysics-0691016070.pdf" target="_blank">UNSOLVED PROBLEMS IN ASTROPHYSICS</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Ajoy%20Ghatak%20-%20Optics-McGraw%20Hill%20Education%20(2016)%20(1).pdf" target="_blank">Optics Ashok Ghatak</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Very%20Short%20Introductions)%20Peter%20Atkins%20-%20The%20Laws%20of%20Thermodynamics_%20A%20Very%20Short%20Introduction%20(Very%20Short%20Introductions)%20%20-Oxford%20University%20Press,%20USA%20(2010).pdf" target="_blank">The Laws of Thermodynamics: A Very Short Introduction Peter Atkins</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dokumen.pub_explaining-logarithms-a-progression-of-ideas-illuminating-an-important-mathematical-concept-dan-umbarger.pdf" target="_blank">Explaining Logarithms A Progression of Ideas Illuminating an Important Mathematical Concept</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/dokumen.pub_mathematical-ideas-15e-15nbsped-0138051437-9780138051433.pdf" target="_blank">MATHEMATICAL IDEAS</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/ShashiBhushanTiwariClass11%20(www.jeebooks.in).pdf" target="_blank">Shashi Bhushan Tiwari SBT part 1</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/ShashiBhushanTiwari12%20(www.jeebooks.in.pdf" target="_blank">Shashi Bhushan Tiwari SBT part 2</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/[Evan_Chen]_Euclidean_Geometry_in_Mathematical_Oly(b-ok.xyz).pdf" target="_blank">Evan Chen Euclidean Geometry in Mathematical_Olympiad</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Barbara%20Ryden,%20Bradley%20Peterson%20-%20Foundations%20of%20Astrophysics-Pearson%20Education%20(2010).pdf" target="_blank">Foundations of Astrophysics Barbara Ryden Bradley M. Peterson</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Barbara%20Ryden%20-%20Introduction%20to%20Cosmology-Cambridge%20University%20Press%20(2016).pdf" target="_blank">Introduction to Cosmology Barbara Ryden</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/V.%20K.%20Balakrishnan%20-%20Schaum's%20Outline%20of%20Theory%20and%20Problems%20of%20Combinatorics%20including%20concepts%20of%20Graph%20Theory%20(1994).pdf" target="_blank">V. K. Balakrishnan - Schaum's Outline of Theory and Problems of Combinatorics </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Classical%20Algebra%20by%20S.%20K.%20Mapa%20.pdf" target="_blank">Classical Algebra By SK MAPA</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/MS%20Chouhan.pdf" target="_blank">MS Chouhan Advanced Problems in Organic Chemistry for jee</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Jay%20Cummings%20-%20Real%20Analysis%20(2019).pdf" target="_blank">Real Analysis A Long-Form Mathematics Textbook Jay Cummings</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Walter%20Rudin%20-%20Real%20and%20complex%20analysis-McGraw-Hill%20(1987).pdf" target="_blank">REAL AND COMPLEX ANALYSIS Walter Rudin</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Cornerstones)%20Anthony%20W.%20Knapp%20-%20Basic%20real%20analysis-Birkh%C3%A4user%20(2005).pdf" target="_blank">Anthony W. Knapp  Basic real analysis</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Cornerstones)%20Anthony%20W.%20Knapp%20-%20Advanced%20Algebra-Birkh%C3%A4user%20Boston%20(2007).pdf" target="_blank">Anthony W. Knapp Advanced Algebra</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(International%20series%20in%20pure%20and%20applied%20mathematics)%20Walter%20Rudin%20-%20Principles%20of%20Mathematical%20Analysis-McGraw-Hill%20(1976).pdf" target="_blank"> Walter Rudin PRINCIPALS OF mathematical Analysis</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Tarasov-Basic-Concepts-of-Quantum-Mechanics.pdf" target="_blank">L.V. Tarasov Basic Concepts of Quantum Mechanics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Cambridge%20studies%20in%20advanced%20mathematics%20105)%20Terence%20Tao,%20Van%20H.%20Vu%20-%20Additive%20combinatorics-Cambridge%20University%20Press%20(2006).pdf" target="_blank">Additive Combinatorics TERENCE TAO, VAN VU</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Graduate%20Texts%20in%20Mathematics%20142)%20Serge%20Lang%20(auth.)%20-%20Real%20and%20Functional%20Analysis-Springer-Verlag%20New%20York%20(1993).pdf" target="_blank">Serge lang Real and Functional Analysis</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Texts%20and%20readings%20in%20mathematics%20volume%2037)%20Tao,%20Terence%20-%20Analysis%201-Springer%20(2016).pdf" target="_blank">Terence Tao Analysis 1</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/(Texts%20and%20Readings%20in%20Mathematics%2038)%20Tao,%20Terence%20-%20Analysis%202-Springer%20(2016).pdf" target="_blank">Terence Tao Analysis 2</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/The%20Univalent%20Foundations%20Program%20-%20Homotopy%20Type%20Theory_%20Univalent%20Foundations%20of%20Mathematics%20(2013).pdf" target="_blank">Homotopy Type Theory Univalent Foundations of Mathematics</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Roger%20B.%20Myerson%20-%20Game%20Theory_%20Analysis%20of%20Conflict%20%20-Harvard%20University%20Press%20(1997).pdf" target="_blank">GAME THEORY Analysis of Conflict ROGER B. MYERSON </a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Pranav%20A.Sriram%20-%20Olympiad%20Combinatorics%20(2014).pdf" target="_blank">Olympiad Combinatorics Pranav A. Sriram</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/olympiad-number-theory.pdf" target="_blank">Olympiad Number Theory Through Challenging Problems Justin Stevens</a></li>
+  <li><a href="file:///C:/Users/rudra/Documents/home/book%20website/book/Modern_Olympiad_Number_Theory%20(1).pdf" target="_blank">Modern Olympiad Number Theory Aditya Khurmi</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  <li><a href="#" target="_blank">comming soon...</a></li>
+  
+  
+
+  
+  
+
+  
+
+</ul>
+ 
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
